@@ -1,9 +1,8 @@
 ---
 title: "Collections in python"
 date: 2023-07-24T08:52:42+05:30
-draft: false
+draft: true
 ---
-
 
 # Collections in python
 
@@ -31,7 +30,7 @@ Data Structures present in the collections module are :
 
 ### 1. namedtuple()
 
-Namedtuple allows us to assign a name to each of its fields. This allows us to access the elements either by index or by name. This impoves code readability.
+Namedtuple enables us to assign a name to each of its fields. This allows us to access the elements either by index or by name. This impoves code readability.
 
 ```python
 # importing namedtuple from collections
@@ -55,8 +54,6 @@ print(car[0]) # BMW X3
 print(bike) # vechicle(name='TVS raider', color='black', year='2022')
 print(bike.color) # black
 print(bike.year) # 2022
-
-
 ```
 
 ### 2. Deque
@@ -104,5 +101,24 @@ print(fruits) # deque(['raspberry', 'pear', 'blueberry', 'pineapple', 'apple', '
 ```
 
 ### 3. ChainMap
+
+Chainmap  combines multiple dictionaries or mappings into a single ,updatable view. The underlying mappings are stored in a list. A ChainMap incorporates the underlying mappings by rederence. So, if one of the underlying mappings get updated, those changes are reflected in ChainMap.
+
+```python
+from collections import ChainMap
+
+x = {"a":15 , "b":20}
+y = {"c":11} , "d":13}
+
+
+abc = ChainMap(x,y)
+```
+
+![](/collections_chainmap_viz.png)
+
+
+
+
+
 
 
