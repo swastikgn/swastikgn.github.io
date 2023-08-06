@@ -1,9 +1,8 @@
 ---
-title: "Collections in python"
-date: 2023-07-24T08:52:42+05:30
+title: "Python_collections"
+date: 2023-08-06T22:43:18+05:30
 draft: false
 ---
-
 # Collections in python
 
 In addition to the four data structures , python also provides additional specialized data structures. These Specialized Data Structures are stored in **Collections** module.
@@ -167,3 +166,4 @@ print(y["n"]) # prints [] (empty list)
 
 
 Collections module also contains UserDict , UserList and UserString classes. These acts as a wrapper around dictionary,list and string respectively and allows us to easily create subclasses with additional functionalities.
+
