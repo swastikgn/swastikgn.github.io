@@ -1,5 +1,5 @@
 ---
-title: "Python_collections"
+title: "Collections in python"
 date: 2023-08-06T22:43:18+05:30
 draft: false
 ---
