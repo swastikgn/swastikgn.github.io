@@ -3,7 +3,7 @@ title: "Collections in python"
 date: 2023-08-06T22:43:18+05:30
 draft: false
 ---
-# Collections in python
+
 
 In addition to the four data structures , python also provides additional specialized data structures. These Specialized Data Structures are stored in **Collections** module.
 
